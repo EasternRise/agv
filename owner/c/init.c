@@ -12,6 +12,20 @@ float delta_y=800;
 float delta_x=800;
 float delta_slow=200;
 float move_distance=0;
+<<<<<<< HEAD
+extern union fi64_to_u8 flash_save[11];
+extern int Stop_time;
+
+void init_parameter(void)
+{
+	Data_Load();
+	AGV_speed=flash_save[0].u16_data[0];
+	delta_x=flash_save[0].u16_data[1];
+	delta_y=flash_save[0].u16_data[2];
+	Stop_time=flash_save[0].u16_data[3];
+}
+=======
+>>>>>>> 2e8c624a0a3a1d3839c54e5692f6a1a626c4e09e
 
 void RCC_Configuration(void)
 {
@@ -187,6 +201,11 @@ void InitAll(void)
 	
 	//底盘速度分解矩阵初始化
 	build_co_arg ();
+<<<<<<< HEAD
+	//参数初始化。
+	init_parameter();
+=======
+>>>>>>> 2e8c624a0a3a1d3839c54e5692f6a1a626c4e09e
 	//初始化结束	
   LED1_off;   
 	LED2_off;
