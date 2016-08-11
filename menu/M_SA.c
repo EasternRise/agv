@@ -16,7 +16,6 @@ void SaShow(void)
   //  LCD_WriteInt(sa_status);
 		LCD_WriteString(*(PSwitch_str+sa_status));
 		LCD_WriteString(" is Blocked.");
-		LCD_WriteString(" is OK.");
     LCD_SetXY(0,3);
         
         for(i=0; i<5; i++)

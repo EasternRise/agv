@@ -58,8 +58,5 @@
 	void init_parameter(void);
 	void parameter_setting (void);
 	void load_defaults (void);
-
-	void parameter_setting (void);
-//>>>>>>> 2e8c624a0a3a1d3839c54e5692f6a1a626c4e09e
 	
 #endif

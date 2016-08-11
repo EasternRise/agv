@@ -5,7 +5,6 @@ extern float AGV_speed,delta_x,delta_y;
 extern int Stop_time;
 extern union fi64_to_u8 flash_save[11];
 
-
 void parameter_setting (void)
 {
 	while(1)
@@ -20,20 +19,12 @@ void parameter_setting (void)
 		
 		LCD_SetXY(0,2);
 		LCD_WriteString("2.DELTA:");
-
-		LCD_WriteString("1.SPEED");
-		LCD_WriteDouble(AGV_speed,1);
-		
-		LCD_SetXY(0,2);
-		LCD_WriteString("2.DELTA");
 		LCD_WriteDouble(delta_x,0);
 		LCD_WriteString("/");
 		LCD_WriteDouble(delta_y,0);
 				
 		LCD_SetXY(0,3);
 		LCD_WriteString("3.STOPTIME:");
-
-    LCD_WriteString("3.STOPTIME");
 		LCD_WriteInt(Stop_time);
 		
 		refresh();
@@ -106,5 +97,3 @@ void load_defaults (void)
 		}
 	}
 }
-
-

@@ -60,10 +60,8 @@ void ComShow(void)
 
 void comadjust (void)
 {
-
 	while (1)
 	{
-
 	LCD_Clear();
 	LCD_SetXY(0,0);
 	LCD_WriteString("------NOTICE------");
@@ -71,7 +69,6 @@ void comadjust (void)
 	LCD_WriteString("When correcting,make sure no iron products around.Press OK to continue,or back to cancel");
 	
 	refresh();
-
 	delay(LCD_DELAY);
 		
 		if(KeyReady==1)
@@ -99,12 +96,12 @@ void comadjust (void)
 					SetSpeed(0,0,0);
 					delay(10);
 				  }
-			UART1_SendByte(0xc1);
-			return;
-			case keyback:
-			return;
-		 }
-	  }  
-   }
+					UART1_SendByte(0xc1);
+					return;
+				case keyback:
+					return;
+			}
+		}
+  
  }
-
+}
