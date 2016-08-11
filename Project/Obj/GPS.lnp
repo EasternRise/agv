@@ -1,5 +1,0 @@
---cpu Cortex-M3 ".\obj\main.o" ".\obj\stm32f10x_it.o" ".\obj\system_stm32f10x.o" ".\obj\stm32f10x_gpio.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_usart.o" ".\obj\stm32f10x_flash.o" ".\obj\misc.o" ".\obj\stm32f10x_can.o" ".\obj\stm32f10x_tim.o" ".\obj\stm32f10x_dma.o" ".\obj\stm32f10x_spi.o" ".\obj\stm32f10x_exti.o" ".\obj\core_cm3.o" ".\obj\startup_stm32f10x_hd.o" ".\obj\systick.o" ".\obj\usart.o" ".\obj\init.o" ".\obj\lcd.o" ".\obj\pwm.o" ".\obj\key.o" ".\obj\measure.o" ".\obj\sys.o" ".\obj\sa.o" ".\obj\can_database.o" ".\obj\command.o" ".\obj\compass.o" ".\obj\mecanum.o" ".\obj\guide.o" ".\obj\can.o" ".\obj\accurate.o" ".\obj\tim.o" ".\obj\obstacle.o" ".\obj\flash.o" ".\obj\parameter_setting.o" ".\obj\mymath.o" ".\obj\pid.o" ".\obj\func.o" ".\obj\list.o" ".\obj\m_colour.o" ".\obj\m_sa.o" ".\obj\m_compass.o" ".\obj\m_motor.o" ".\obj\m_camer.o" ".\obj\m_adc.o" ".\obj\m_move.o" 
---library_type=microlib --strict --scatter ".\Obj\GPS.sct" 
---summary_stderr --info summarysizes --map --xref --callgraph --symbols 
---info sizes --info totals --info unused --info veneers 
- --list ".\List\GPS.map" -o .\Obj\GPS.axf
