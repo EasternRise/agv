@@ -3,10 +3,8 @@
 
 extern float AGV_speed,delta_x,delta_y;
 extern int Stop_time;
-<<<<<<< HEAD
 extern union fi64_to_u8 flash_save[11];
-=======
->>>>>>> 2e8c624a0a3a1d3839c54e5692f6a1a626c4e09e
+
 
 void parameter_setting (void)
 {
@@ -17,29 +15,25 @@ void parameter_setting (void)
 		LCD_WriteString("PARAMETER SETTING");	
 		
 		LCD_SetXY(0,1);
-<<<<<<< HEAD
 		LCD_WriteString("1.SPEED:");
 		LCD_WriteDouble(AGV_speed,1);
 		
 		LCD_SetXY(0,2);
 		LCD_WriteString("2.DELTA:");
-=======
+
 		LCD_WriteString("1.SPEED");
 		LCD_WriteDouble(AGV_speed,1);
 		
 		LCD_SetXY(0,2);
 		LCD_WriteString("2.DELTA");
->>>>>>> 2e8c624a0a3a1d3839c54e5692f6a1a626c4e09e
 		LCD_WriteDouble(delta_x,0);
 		LCD_WriteString("/");
 		LCD_WriteDouble(delta_y,0);
 				
 		LCD_SetXY(0,3);
-<<<<<<< HEAD
 		LCD_WriteString("3.STOPTIME:");
-=======
-		LCD_WriteString("3.STOPTIME");
->>>>>>> 2e8c624a0a3a1d3839c54e5692f6a1a626c4e09e
+
+    LCD_WriteString("3.STOPTIME");
 		LCD_WriteInt(Stop_time);
 		
 		refresh();
@@ -52,7 +46,6 @@ void parameter_setting (void)
 			{
 				case 1:
 					Input_FloatValue(&AGV_speed,"SPEED");
-<<<<<<< HEAD
 				  flash_save[0].u16_data[0]=AGV_speed;
 				  break;
 				
@@ -67,31 +60,18 @@ void parameter_setting (void)
 					Input_IntValue(&Stop_time,"STOPTIME");
 				  flash_save[0].u16_data[3]=Stop_time;
 				  break;
-=======
-				
-				case 2:
-					Input_FloatValue(&delta_x,"DELTA_X");
-				  Input_FloatValue(&delta_y,"DELTA_Y");
-				
-				case 3:
-					Input_IntValue(&Stop_time,"STOPTIME");
->>>>>>> 2e8c624a0a3a1d3839c54e5692f6a1a626c4e09e
 				
 				case 5:
 					return;
 				
 			}
-<<<<<<< HEAD
 			Data_Save();
 			init_parameter();
-=======
->>>>>>> 2e8c624a0a3a1d3839c54e5692f6a1a626c4e09e
 		}
 		
 		delay(LCD_DELAY);
 		
 	}
-<<<<<<< HEAD
 }
 
 void load_defaults (void)
@@ -126,6 +106,5 @@ void load_defaults (void)
 		}
 	}
 }
-=======
-}
->>>>>>> 2e8c624a0a3a1d3839c54e5692f6a1a626c4e09e
+
+

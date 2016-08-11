@@ -1,0 +1,682 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\ER\Documents\agv\Project\GPS.uvproj
+Project File Date:  08/10/2016
+
+<h2>Output:</h2>
+Build target 'GPS'
+compiling main.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\User\main.c(10): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\main.c(17): error:  #20: identifier "col_error" is undefined
+compiling stm32f10x_it.c...
+compiling system_stm32f10x.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_flash.c...
+compiling misc.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_exti.c...
+compiling core_cm3.c...
+assembling startup_stm32f10x_hd.s...
+compiling SysTick.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\owner\c\SysTick.c(3): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\SysTick.c(17): error:  #20: identifier "TimingDelay" is undefined
+..\owner\c\SysTick.c(24): error:  #20: identifier "TimingDelay" is undefined
+compiling usart.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\owner\c\usart.c(6): warning:  #12-D: parsing restarts here after previous syntax error
+compiling init.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\owner\c\init.c(11): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\init.c(15): error:  #169: expected a declaration
+..\owner\c\init.c(22): error:  #20: identifier "flash_save" is undefined
+..\owner\c\init.c(27): error:  #169: expected a declaration
+..\owner\c\init.c(112): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\init.c(113): error:  #169: expected a declaration
+..\owner\c\init.c(115): error:  #169: expected a declaration
+..\owner\c\init.c(116): error:  #169: expected a declaration
+..\owner\c\init.c(136): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\init.c(153): error:  #20: identifier "mycoeff_arg" is undefined
+..\owner\c\init.c(181): warning:  #223-D: function "LedInit" declared implicitly
+..\owner\c\init.c(204): error:  #29: expected an expression
+..\owner\c\init.c(207): error:  #29: expected an expression
+..\owner\c\init.c(210): warning:  #12-D: parsing restarts here after previous syntax error
+compiling lcd.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\owner\h\stdarg.h(39): warning:  #12-D: parsing restarts here after previous syntax error
+compiling pwm.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\owner\h\pwm.h(5): warning:  #12-D: parsing restarts here after previous syntax error
+compiling key.c...
+compiling measure.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\owner\c\measure.c(7): warning:  #12-D: parsing restarts here after previous syntax error
+compiling sys.c...
+compiling sa.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\owner\c\sa.c(12): warning:  #12-D: parsing restarts here after previous syntax error
+compiling can_database.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\owner\c\can_database.c(11): warning:  #12-D: parsing restarts here after previous syntax error
+compiling Command.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\menu\h\m_adc.h(4): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\Command.c(164): error:  #20: identifier "v_thresh" is undefined
+compiling compass.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\owner\c\compass.c(4): warning:  #12-D: parsing restarts here after previous syntax error
+compiling mecanum.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\owner\c\mecanum.c(6): warning:  #12-D: parsing restarts here after previous syntax error
+compiling guide.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\owner\c\guide.c(4): warning:  #12-D: parsing restarts here after previous syntax error
+compiling can.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\owner\c\can.c(69): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\can.c(70): error:  #77-D: this declaration has no storage class or type specifier
+..\owner\c\can.c(70): error:  #65: expected a ";"
+..\owner\c\can.c(75): error:  #77-D: this declaration has no storage class or type specifier
+..\owner\c\can.c(75): error:  #65: expected a ";"
+..\owner\c\can.c(85): error:  #79: expected a type specifier
+..\owner\c\can.c(85): error:  #79: expected a type specifier
+..\owner\c\can.c(85): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\can.c(85): error:  #147: declaration is incompatible with "uint8_t CAN_Init(CAN_TypeDef *, CAN_InitTypeDef *)" (declared at line 645 of "..\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h")
+..\owner\c\can.c(87): error:  #169: expected a declaration
+..\owner\c\can.c(129): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\can.c(130): error:  #77-D: this declaration has no storage class or type specifier
+..\owner\c\can.c(130): error:  #65: expected a ";"
+..\owner\c\can.c(131): error:  #77-D: this declaration has no storage class or type specifier
+..\owner\c\can.c(131): error:  #65: expected a ";"
+..\owner\c\can.c(132): error:  #77-D: this declaration has no storage class or type specifier
+..\owner\c\can.c(132): error:  #65: expected a ";"
+..\owner\c\can.c(133): error:  #77-D: this declaration has no storage class or type specifier
+..\owner\c\can.c(133): error:  #65: expected a ";"
+..\owner\c\can.c(134): error:  #77-D: this declaration has no storage class or type specifier
+..\owner\c\can.c(134): error:  #65: expected a ";"
+..\owner\c\can.c(135): error:  #77-D: this declaration has no storage class or type specifier
+..\owner\c\can.c(135): error:  #65: expected a ";"
+..\owner\c\can.c(136): error:  #77-D: this declaration has no storage class or type specifier
+..\owner\c\can.c(136): error:  #65: expected a ";"
+..\owner\c\can.c(137): error:  #77-D: this declaration has no storage class or type specifier
+..\owner\c\can.c(137): error:  #65: expected a ";"
+..\owner\c\can.c(138): error:  #77-D: this declaration has no storage class or type specifier
+..\owner\c\can.c(138): error:  #65: expected a ";"
+compiling accurate.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\owner\c\accurate.c(3): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\accurate.c(13): error:  #20: identifier "nspeed_x" is undefined
+..\owner\c\accurate.c(13): error:  #20: identifier "nspeed_y" is undefined
+..\owner\c\accurate.c(13): error:  #20: identifier "nspeed_w" is undefined
+compiling tim.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\owner\c\tim.c(28): warning:  #12-D: parsing restarts here after previous syntax error
+compiling obstacle.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\owner\c\obstacle.c(10): warning:  #12-D: parsing restarts here after previous syntax error
+compiling flash.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\owner\c\flash.c(3): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\flash.c(88): error:  #20: identifier "flash_save" is undefined
+..\owner\c\flash.c(147): error:  #20: identifier "flash_save" is undefined
+compiling parameter_setting.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(4): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(6): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(8): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(33): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(34): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(34): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(34): error:  #147: declaration is incompatible with "void LCD_WriteString(char *)" (declared at line 14 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(35): error:  #40: expected an identifier
+..\owner\c\parameter_setting.c(35): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(35): error:  #92: identifier-list parameters may only be used in a function definition
+..\owner\c\parameter_setting.c(35): error:  #147: declaration is incompatible with "void LCD_WriteDouble(double, int)" (declared at line 15 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(37): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(37): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(37): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(37): error:  #147: declaration is incompatible with "void LCD_SetXY(int, int)" (declared at line 12 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(38): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(40): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(42): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(45): warning:  #1295-D: Deprecated declaration refresh - give arg types
+..\owner\c\parameter_setting.c(45): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(45): error:  #147: declaration is incompatible with "void refresh(void)" (declared at line 32 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(47): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(69): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(70): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(73): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(74): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(74): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(74): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(74): error:  #147: declaration is incompatible with "void Input_FloatValue(float *, char *)" (declared at line 5 of "..\owner\h\key.h")
+..\owner\c\parameter_setting.c(76): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(78): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(81): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(83): error:  #169: expected a declaration
+compiling mymath.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\General_Functions\c\mymath.c(115): warning:  #12-D: parsing restarts here after previous syntax error
+..\General_Functions\c\mymath.c(116): error:  #169: expected a declaration
+..\General_Functions\c\mymath.c(124): warning:  #12-D: parsing restarts here after previous syntax error
+..\General_Functions\c\mymath.c(127): error:  #77-D: this declaration has no storage class or type specifier
+..\General_Functions\c\mymath.c(127): error:  #20: identifier "x0" is undefined
+..\General_Functions\c\mymath.c(127): error:  #20: identifier "dx" is undefined
+..\General_Functions\c\mymath.c(127): error:  #20: identifier "a" is undefined
+..\General_Functions\c\mymath.c(127): error:  #20: identifier "d" is undefined
+..\General_Functions\c\mymath.c(128): error:  #77-D: this declaration has no storage class or type specifier
+..\General_Functions\c\mymath.c(128): error:  #20: identifier "y0" is undefined
+..\General_Functions\c\mymath.c(128): error:  #20: identifier "dy" is undefined
+..\General_Functions\c\mymath.c(133): error:  #77-D: this declaration has no storage class or type specifier
+..\General_Functions\c\mymath.c(133): error:  #59: function call is not allowed in a constant expression
+..\General_Functions\c\mymath.c(133): error:  #20: identifier "r0" is undefined
+..\General_Functions\c\mymath.c(138): error:  #77-D: this declaration has no storage class or type specifier
+..\General_Functions\c\mymath.c(138): error:  #28: expression must have a constant value
+..\General_Functions\c\mymath.c(139): error:  #77-D: this declaration has no storage class or type specifier
+..\General_Functions\c\mymath.c(139): error:  #28: expression must have a constant value
+..\General_Functions\c\mymath.c(142): error:  #77-D: this declaration has no storage class or type specifier
+..\General_Functions\c\mymath.c(142): error:  #28: expression must have a constant value
+..\General_Functions\c\mymath.c(142): error:  #28: expression must have a constant value
+..\General_Functions\c\mymath.c(143): error:  #77-D: this declaration has no storage class or type specifier
+..\General_Functions\c\mymath.c(143): error:  #28: expression must have a constant value
+..\General_Functions\c\mymath.c(143): error:  #28: expression must have a constant value
+..\General_Functions\c\mymath.c(144): error:  #77-D: this declaration has no storage class or type specifier
+..\General_Functions\c\mymath.c(144): error:  #28: expression must have a constant value
+..\General_Functions\c\mymath.c(144): error:  #28: expression must have a constant value
+..\General_Functions\c\mymath.c(145): error:  #77-D: this declaration has no storage class or type specifier
+..\General_Functions\c\mymath.c(145): error:  #28: expression must have a constant value
+compiling pid.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\General_Functions\c\pid.c(5): warning:  #12-D: parsing restarts here after previous syntax error
+compiling func.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\menu\func.c(70): warning:  #12-D: parsing restarts here after previous syntax error
+..\menu\func.c(71): error:  #169: expected a declaration
+..\menu\func.c(72): error:  #169: expected a declaration
+..\menu\func.c(74): error:  #169: expected a declaration
+..\menu\func.c(75): error:  #169: expected a declaration
+..\menu\func.c(77): error:  #169: expected a declaration
+..\menu\func.c(78): error:  #169: expected a declaration
+..\menu\func.c(80): error:  #169: expected a declaration
+..\menu\func.c(81): error:  #169: expected a declaration
+..\menu\func.c(83): error:  #169: expected a declaration
+..\menu\func.c(84): error:  #169: expected a declaration
+..\menu\func.c(86): error:  #169: expected a declaration
+..\menu\func.c(88): error:  #169: expected a declaration
+..\menu\func.c(112): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+compiling list.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\menu\h\M_SA.h(3): warning:  #12-D: parsing restarts here after previous syntax error
+..\menu\list.c(65): error:  #20: identifier "SaShow" is undefined
+compiling M_Colour.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\menu\M_Colour.c(49): warning:  #12-D: parsing restarts here after previous syntax error
+..\menu\M_Colour.c(50): error:  #169: expected a declaration
+..\menu\M_Colour.c(52): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+compiling M_SA.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\owner\h\sa.h(17): warning:  #12-D: parsing restarts here after previous syntax error
+..\menu\M_SA.c(18): error:  #29: expected an expression
+..\menu\M_SA.c(20): error:  #29: expected an expression
+..\menu\M_SA.c(22): error:  #29: expected an expression
+compiling M_COMPASS.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\menu\M_COMPASS.c(28): warning:  #12-D: parsing restarts here after previous syntax error
+..\menu\M_COMPASS.c(30): error:  #169: expected a declaration
+..\menu\M_COMPASS.c(52): warning:  #12-D: parsing restarts here after previous syntax error
+..\menu\M_COMPASS.c(53): error:  #169: expected a declaration
+..\menu\M_COMPASS.c(58): error:  #169: expected a declaration
+..\menu\M_COMPASS.c(123): warning:  #12-D: parsing restarts here after previous syntax error
+..\menu\M_COMPASS.c(124): error:  #79: expected a type specifier
+..\menu\M_COMPASS.c(124): error:  #260-D: explicit type is missing ("int" assumed)
+..\menu\M_COMPASS.c(124): error:  #147: declaration is incompatible with "void delay(volatile uint32_t)" (declared at line 5 of "..\owner\h\SysTick.h")
+..\menu\M_COMPASS.c(125): error:  #169: expected a declaration
+..\menu\M_COMPASS.c(130): warning:  #12-D: parsing restarts here after previous syntax error
+..\menu\M_COMPASS.c(131): error:  #169: expected a declaration
+..\menu\M_COMPASS.c(132): error:  #169: expected a declaration
+..\menu\M_COMPASS.c(134): error:  #169: expected a declaration
+..\menu\M_COMPASS.c(142): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+compiling M_MOTOR.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\menu\M_MOTOR.c(47): warning:  #12-D: parsing restarts here after previous syntax error
+..\menu\M_MOTOR.c(49): error:  #169: expected a declaration
+..\menu\M_MOTOR.c(53): warning:  #12-D: parsing restarts here after previous syntax error
+compiling M_CAMER.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\menu\M_CAMER.c(26): warning:  #12-D: parsing restarts here after previous syntax error
+..\menu\M_CAMER.c(29): error:  #757: variable "now_pos" is not a type name
+..\menu\M_CAMER.c(29): error:  #18: expected a ")"
+..\menu\M_CAMER.c(29): error:  #260-D: explicit type is missing ("int" assumed)
+..\menu\M_CAMER.c(29): error:  #147: declaration is incompatible with "void LCD_WriteDouble(double, int)" (declared at line 15 of "..\owner\h\lcd.h")
+..\menu\M_CAMER.c(31): error:  #79: expected a type specifier
+..\menu\M_CAMER.c(31): error:  #79: expected a type specifier
+..\menu\M_CAMER.c(31): error:  #260-D: explicit type is missing ("int" assumed)
+..\menu\M_CAMER.c(31): error:  #147: declaration is incompatible with "void LCD_SetXY(int, int)" (declared at line 12 of "..\owner\h\lcd.h")
+..\menu\M_CAMER.c(32): error:  #79: expected a type specifier
+..\menu\M_CAMER.c(32): error:  #260-D: explicit type is missing ("int" assumed)
+..\menu\M_CAMER.c(32): error:  #147: declaration is incompatible with "void LCD_WriteString(char *)" (declared at line 14 of "..\owner\h\lcd.h")
+..\menu\M_CAMER.c(33): error:  #40: expected an identifier
+..\menu\M_CAMER.c(33): error:  #260-D: explicit type is missing ("int" assumed)
+..\menu\M_CAMER.c(33): error:  #92: identifier-list parameters may only be used in a function definition
+..\menu\M_CAMER.c(35): error:  #79: expected a type specifier
+..\menu\M_CAMER.c(35): error:  #79: expected a type specifier
+..\menu\M_CAMER.c(35): error:  #260-D: explicit type is missing ("int" assumed)
+..\menu\M_CAMER.c(36): error:  #79: expected a type specifier
+..\menu\M_CAMER.c(36): error:  #260-D: explicit type is missing ("int" assumed)
+..\menu\M_CAMER.c(37): error:  #40: expected an identifier
+..\menu\M_CAMER.c(37): error:  #260-D: explicit type is missing ("int" assumed)
+..\menu\M_CAMER.c(37): error:  #92: identifier-list parameters may only be used in a function definition
+..\menu\M_CAMER.c(38): error:  #79: expected a type specifier
+..\menu\M_CAMER.c(38): error:  #260-D: explicit type is missing ("int" assumed)
+..\menu\M_CAMER.c(41): error:  #40: expected an identifier
+..\menu\M_CAMER.c(41): error:  #260-D: explicit type is missing ("int" assumed)
+..\menu\M_CAMER.c(41): error:  #92: identifier-list parameters may only be used in a function definition
+compiling M_ADC.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\menu\h\M_ADC.h(4): warning:  #12-D: parsing restarts here after previous syntax error
+compiling M_MOVE.c...
+..\User\all.h(58): error:  #169: expected a declaration
+..\User\all.h(62): error:  #169: expected a declaration
+..\User\all.h(64): error:  #169: expected a declaration
+..\menu\h\M_move.h(4): warning:  #12-D: parsing restarts here after previous syntax error
+Target not created
+Build target 'GPS'
+compiling main.c...
+compiling SysTick.c...
+compiling usart.c...
+compiling init.c...
+..\owner\c\init.c(15): error:  #169: expected a declaration
+..\owner\c\init.c(22): error:  #20: identifier "flash_save" is undefined
+..\owner\c\init.c(27): error:  #169: expected a declaration
+..\owner\c\init.c(112): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\init.c(113): error:  #169: expected a declaration
+..\owner\c\init.c(115): error:  #169: expected a declaration
+..\owner\c\init.c(116): error:  #169: expected a declaration
+..\owner\c\init.c(136): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\init.c(153): error:  #20: identifier "mycoeff_arg" is undefined
+..\owner\c\init.c(181): warning:  #223-D: function "LedInit" declared implicitly
+..\owner\c\init.c(204): error:  #29: expected an expression
+..\owner\c\init.c(207): error:  #29: expected an expression
+..\owner\c\init.c(210): warning:  #12-D: parsing restarts here after previous syntax error
+compiling lcd.c...
+compiling pwm.c...
+compiling measure.c...
+compiling sa.c...
+compiling can_database.c...
+compiling Command.c...
+compiling compass.c...
+compiling mecanum.c...
+compiling guide.c...
+compiling can.c...
+compiling accurate.c...
+compiling tim.c...
+compiling obstacle.c...
+compiling flash.c...
+compiling parameter_setting.c...
+..\owner\c\parameter_setting.c(6): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(8): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(33): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(34): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(34): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(34): error:  #147: declaration is incompatible with "void LCD_WriteString(char *)" (declared at line 14 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(35): error:  #40: expected an identifier
+..\owner\c\parameter_setting.c(35): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(35): error:  #92: identifier-list parameters may only be used in a function definition
+..\owner\c\parameter_setting.c(35): error:  #147: declaration is incompatible with "void LCD_WriteDouble(double, int)" (declared at line 15 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(37): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(37): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(37): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(37): error:  #147: declaration is incompatible with "void LCD_SetXY(int, int)" (declared at line 12 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(38): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(40): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(42): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(45): warning:  #1295-D: Deprecated declaration refresh - give arg types
+..\owner\c\parameter_setting.c(45): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(45): error:  #147: declaration is incompatible with "void refresh(void)" (declared at line 32 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(47): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(69): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(70): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(73): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(74): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(74): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(74): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(74): error:  #147: declaration is incompatible with "void Input_FloatValue(float *, char *)" (declared at line 5 of "..\owner\h\key.h")
+..\owner\c\parameter_setting.c(76): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(78): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(81): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(83): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(86): warning:  #1295-D: Deprecated declaration init_parameter - give arg types
+..\owner\c\parameter_setting.c(86): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(86): error:  #147: declaration is incompatible with "void init_parameter(void)" (declared at line 58 of "..\User\all.h")
+..\owner\c\parameter_setting.c(87): error:  #169: expected a declaration
+compiling mymath.c...
+compiling pid.c...
+compiling func.c...
+compiling list.c...
+compiling M_Colour.c...
+compiling M_SA.c...
+..\menu\M_SA.c(18): error:  #29: expected an expression
+..\menu\M_SA.c(20): error:  #29: expected an expression
+..\menu\M_SA.c(22): error:  #29: expected an expression
+compiling M_COMPASS.c...
+..\menu\M_COMPASS.c(63): error:  #29: expected an expression
+..\menu\M_COMPASS.c(87): warning:  #12-D: parsing restarts here after previous syntax error
+..\menu\M_COMPASS.c(96): error:  #20: identifier "i" is undefined
+..\menu\M_COMPASS.c(98): error:  #169: expected a declaration
+..\menu\M_COMPASS.c(123): warning:  #12-D: parsing restarts here after previous syntax error
+..\menu\M_COMPASS.c(124): error:  #79: expected a type specifier
+..\menu\M_COMPASS.c(124): error:  #260-D: explicit type is missing ("int" assumed)
+..\menu\M_COMPASS.c(124): error:  #147: declaration is incompatible with "void delay(volatile uint32_t)" (declared at line 5 of "..\owner\h\SysTick.h")
+..\menu\M_COMPASS.c(125): error:  #169: expected a declaration
+..\menu\M_COMPASS.c(130): warning:  #12-D: parsing restarts here after previous syntax error
+..\menu\M_COMPASS.c(131): error:  #169: expected a declaration
+..\menu\M_COMPASS.c(132): error:  #169: expected a declaration
+..\menu\M_COMPASS.c(134): error:  #169: expected a declaration
+..\menu\M_COMPASS.c(142): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+compiling M_MOTOR.c...
+compiling M_CAMER.c...
+compiling M_ADC.c...
+compiling M_MOVE.c...
+Target not created
+Build target 'GPS'
+compiling init.c...
+..\owner\c\init.c(15): error:  #169: expected a declaration
+..\owner\c\init.c(22): error:  #20: identifier "flash_save" is undefined
+..\owner\c\init.c(27): error:  #169: expected a declaration
+..\owner\c\init.c(112): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\init.c(113): error:  #169: expected a declaration
+..\owner\c\init.c(115): error:  #169: expected a declaration
+..\owner\c\init.c(116): error:  #169: expected a declaration
+..\owner\c\init.c(136): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\init.c(153): error:  #20: identifier "mycoeff_arg" is undefined
+..\owner\c\init.c(181): warning:  #223-D: function "LedInit" declared implicitly
+..\owner\c\init.c(204): error:  #29: expected an expression
+..\owner\c\init.c(207): error:  #29: expected an expression
+..\owner\c\init.c(210): warning:  #12-D: parsing restarts here after previous syntax error
+compiling parameter_setting.c...
+..\owner\c\parameter_setting.c(6): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(8): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(33): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(34): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(34): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(34): error:  #147: declaration is incompatible with "void LCD_WriteString(char *)" (declared at line 14 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(35): error:  #40: expected an identifier
+..\owner\c\parameter_setting.c(35): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(35): error:  #92: identifier-list parameters may only be used in a function definition
+..\owner\c\parameter_setting.c(35): error:  #147: declaration is incompatible with "void LCD_WriteDouble(double, int)" (declared at line 15 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(37): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(37): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(37): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(37): error:  #147: declaration is incompatible with "void LCD_SetXY(int, int)" (declared at line 12 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(38): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(40): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(42): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(45): warning:  #1295-D: Deprecated declaration refresh - give arg types
+..\owner\c\parameter_setting.c(45): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(45): error:  #147: declaration is incompatible with "void refresh(void)" (declared at line 32 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(47): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(69): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(70): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(73): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(74): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(74): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(74): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(74): error:  #147: declaration is incompatible with "void Input_FloatValue(float *, char *)" (declared at line 5 of "..\owner\h\key.h")
+..\owner\c\parameter_setting.c(76): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(78): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(81): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(83): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(86): warning:  #1295-D: Deprecated declaration init_parameter - give arg types
+..\owner\c\parameter_setting.c(86): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(86): error:  #147: declaration is incompatible with "void init_parameter(void)" (declared at line 58 of "..\User\all.h")
+..\owner\c\parameter_setting.c(87): error:  #169: expected a declaration
+compiling M_SA.c...
+..\menu\M_SA.c(18): error:  #29: expected an expression
+..\menu\M_SA.c(20): error:  #29: expected an expression
+..\menu\M_SA.c(22): error:  #29: expected an expression
+compiling M_COMPASS.c...
+..\menu\M_COMPASS.c(97): error:  #29: expected an expression
+..\menu\M_COMPASS.c(122): warning:  #12-D: parsing restarts here after previous syntax error
+..\menu\M_COMPASS.c(124): error:  #29: expected an expression
+..\menu\M_COMPASS.c(125): error:  #65: expected a ";"
+..\menu\M_COMPASS.c(126): error:  #29: expected an expression
+..\menu\M_COMPASS.c(127): error:  #65: expected a ";"
+..\menu\M_COMPASS.c(128): error:  #29: expected an expression
+..\menu\M_COMPASS.c(131): error:  #121: a case label may only be used within a switch
+..\menu\M_COMPASS.c(135): error:  #169: expected a declaration
+..\menu\M_COMPASS.c(141): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+Target not created
+Build target 'GPS'
+compiling init.c...
+..\owner\c\init.c(15): error:  #169: expected a declaration
+..\owner\c\init.c(22): error:  #20: identifier "flash_save" is undefined
+..\owner\c\init.c(27): error:  #169: expected a declaration
+..\owner\c\init.c(112): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\init.c(113): error:  #169: expected a declaration
+..\owner\c\init.c(115): error:  #169: expected a declaration
+..\owner\c\init.c(116): error:  #169: expected a declaration
+..\owner\c\init.c(136): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\init.c(153): error:  #20: identifier "mycoeff_arg" is undefined
+..\owner\c\init.c(181): warning:  #223-D: function "LedInit" declared implicitly
+..\owner\c\init.c(204): error:  #29: expected an expression
+..\owner\c\init.c(207): error:  #29: expected an expression
+..\owner\c\init.c(210): warning:  #12-D: parsing restarts here after previous syntax error
+compiling parameter_setting.c...
+..\owner\c\parameter_setting.c(6): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(8): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(33): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(34): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(34): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(34): error:  #147: declaration is incompatible with "void LCD_WriteString(char *)" (declared at line 14 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(35): error:  #40: expected an identifier
+..\owner\c\parameter_setting.c(35): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(35): error:  #92: identifier-list parameters may only be used in a function definition
+..\owner\c\parameter_setting.c(35): error:  #147: declaration is incompatible with "void LCD_WriteDouble(double, int)" (declared at line 15 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(37): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(37): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(37): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(37): error:  #147: declaration is incompatible with "void LCD_SetXY(int, int)" (declared at line 12 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(38): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(40): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(42): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(45): warning:  #1295-D: Deprecated declaration refresh - give arg types
+..\owner\c\parameter_setting.c(45): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(45): error:  #147: declaration is incompatible with "void refresh(void)" (declared at line 32 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(47): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(69): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(70): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(73): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(74): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(74): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(74): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(74): error:  #147: declaration is incompatible with "void Input_FloatValue(float *, char *)" (declared at line 5 of "..\owner\h\key.h")
+..\owner\c\parameter_setting.c(76): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(78): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(81): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(83): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(86): warning:  #1295-D: Deprecated declaration init_parameter - give arg types
+..\owner\c\parameter_setting.c(86): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(86): error:  #147: declaration is incompatible with "void init_parameter(void)" (declared at line 58 of "..\User\all.h")
+..\owner\c\parameter_setting.c(87): error:  #169: expected a declaration
+compiling M_SA.c...
+..\menu\M_SA.c(18): error:  #29: expected an expression
+..\menu\M_SA.c(20): error:  #29: expected an expression
+..\menu\M_SA.c(22): error:  #29: expected an expression
+compiling M_COMPASS.c...
+..\menu\M_COMPASS.c(132): error: At end of source:  #67: expected a "}"
+Target not created
+Build target 'GPS'
+compiling init.c...
+..\owner\c\init.c(15): error:  #169: expected a declaration
+..\owner\c\init.c(22): error:  #20: identifier "flash_save" is undefined
+..\owner\c\init.c(27): error:  #169: expected a declaration
+..\owner\c\init.c(112): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\init.c(113): error:  #169: expected a declaration
+..\owner\c\init.c(115): error:  #169: expected a declaration
+..\owner\c\init.c(116): error:  #169: expected a declaration
+..\owner\c\init.c(136): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\init.c(153): error:  #20: identifier "mycoeff_arg" is undefined
+..\owner\c\init.c(181): warning:  #223-D: function "LedInit" declared implicitly
+..\owner\c\init.c(204): error:  #29: expected an expression
+..\owner\c\init.c(207): error:  #29: expected an expression
+..\owner\c\init.c(210): warning:  #12-D: parsing restarts here after previous syntax error
+compiling parameter_setting.c...
+..\owner\c\parameter_setting.c(6): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(8): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(33): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(34): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(34): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(34): error:  #147: declaration is incompatible with "void LCD_WriteString(char *)" (declared at line 14 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(35): error:  #40: expected an identifier
+..\owner\c\parameter_setting.c(35): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(35): error:  #92: identifier-list parameters may only be used in a function definition
+..\owner\c\parameter_setting.c(35): error:  #147: declaration is incompatible with "void LCD_WriteDouble(double, int)" (declared at line 15 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(37): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(37): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(37): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(37): error:  #147: declaration is incompatible with "void LCD_SetXY(int, int)" (declared at line 12 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(38): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(40): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(42): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(45): warning:  #1295-D: Deprecated declaration refresh - give arg types
+..\owner\c\parameter_setting.c(45): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(45): error:  #147: declaration is incompatible with "void refresh(void)" (declared at line 32 of "..\owner\h\lcd.h")
+..\owner\c\parameter_setting.c(47): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(69): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(70): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(73): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(74): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(74): error:  #79: expected a type specifier
+..\owner\c\parameter_setting.c(74): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(74): error:  #147: declaration is incompatible with "void Input_FloatValue(float *, char *)" (declared at line 5 of "..\owner\h\key.h")
+..\owner\c\parameter_setting.c(76): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(78): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(81): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\parameter_setting.c(83): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(86): warning:  #1295-D: Deprecated declaration init_parameter - give arg types
+..\owner\c\parameter_setting.c(86): error:  #260-D: explicit type is missing ("int" assumed)
+..\owner\c\parameter_setting.c(86): error:  #147: declaration is incompatible with "void init_parameter(void)" (declared at line 58 of "..\User\all.h")
+..\owner\c\parameter_setting.c(87): error:  #169: expected a declaration
+compiling M_SA.c...
+compiling M_COMPASS.c...
+..\menu\M_COMPASS.c(132): error: At end of source:  #67: expected a "}"
+Target not created
+Build target 'GPS'
+compiling init.c...
+..\owner\c\init.c(15): error:  #169: expected a declaration
+..\owner\c\init.c(22): error:  #20: identifier "flash_save" is undefined
+..\owner\c\init.c(27): error:  #169: expected a declaration
+..\owner\c\init.c(112): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\init.c(113): error:  #169: expected a declaration
+..\owner\c\init.c(115): error:  #169: expected a declaration
+..\owner\c\init.c(116): error:  #169: expected a declaration
+..\owner\c\init.c(136): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\init.c(153): error:  #20: identifier "mycoeff_arg" is undefined
+..\owner\c\init.c(181): warning:  #223-D: function "LedInit" declared implicitly
+..\owner\c\init.c(204): error:  #29: expected an expression
+..\owner\c\init.c(207): error:  #29: expected an expression
+..\owner\c\init.c(210): warning:  #12-D: parsing restarts here after previous syntax error
+compiling parameter_setting.c...
+..\owner\c\parameter_setting.c(65): error:  #2706: case label value has already appeared in this switch at line 52
+..\owner\c\parameter_setting.c(69): error:  #2706: case label value has already appeared in this switch at line 59
+..\owner\c\parameter_setting.c(117): error:  #169: expected a declaration
+..\owner\c\parameter_setting.c(119): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+compiling M_COMPASS.c...
+..\menu\M_COMPASS.c(132): error: At end of source:  #67: expected a "}"
+Target not created
+Build target 'GPS'
+compiling init.c...
+..\owner\c\init.c(15): error:  #169: expected a declaration
+..\owner\c\init.c(22): error:  #20: identifier "flash_save" is undefined
+..\owner\c\init.c(27): error:  #169: expected a declaration
+..\owner\c\init.c(112): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\init.c(113): error:  #169: expected a declaration
+..\owner\c\init.c(115): error:  #169: expected a declaration
+..\owner\c\init.c(116): error:  #169: expected a declaration
+..\owner\c\init.c(136): warning:  #12-D: parsing restarts here after previous syntax error
+..\owner\c\init.c(153): error:  #20: identifier "mycoeff_arg" is undefined
+..\owner\c\init.c(181): warning:  #223-D: function "LedInit" declared implicitly
+..\owner\c\init.c(204): error:  #29: expected an expression
+..\owner\c\init.c(207): error:  #29: expected an expression
+..\owner\c\init.c(210): warning:  #12-D: parsing restarts here after previous syntax error
+compiling parameter_setting.c...
+compiling M_COMPASS.c...
+..\menu\M_COMPASS.c(132): error: At end of source:  #67: expected a "}"
+Target not created
+Build target 'GPS'
+compiling init.c...
+compiling M_COMPASS.c...
+..\menu\M_COMPASS.c(132): error: At end of source:  #67: expected a "}"
+Target not created
+Build target 'GPS'
+compiling M_COMPASS.c...
+linking...
+Program Size: Code=40464 RO-data=1168 RW-data=1680 ZI-data=1432  
+".\Obj\GPS.axf" - 0 Error(s), 0 Warning(s).

@@ -60,11 +60,10 @@ void ComShow(void)
 
 void comadjust (void)
 {
-<<<<<<< HEAD
+
 	while (1)
 	{
-=======
->>>>>>> 2e8c624a0a3a1d3839c54e5692f6a1a626c4e09e
+
 	LCD_Clear();
 	LCD_SetXY(0,0);
 	LCD_WriteString("------NOTICE------");
@@ -72,7 +71,7 @@ void comadjust (void)
 	LCD_WriteString("When correcting,make sure no iron products around.Press OK to continue,or back to cancel");
 	
 	refresh();
-<<<<<<< HEAD
+
 	delay(LCD_DELAY);
 		
 		if(KeyReady==1)
@@ -95,48 +94,17 @@ void comadjust (void)
 						delay(20);
 						i+=1;
 					}
-=======
-	
-	while (1)
-	{
-		if(KeyReady==1)
-		{
-			KeyReady=0;
-			switch(KeyValue)
-			{
-				case 18://ok
-					LCD_Clear();
-					LCD_SetXY(0,0);
-					LCD_WriteString("------NOTICE------");
-				  LCD_SetXY(0,1);
-	        LCD_WriteString("ROTATION FOR 10S AROUND,BE CAREFUL!");
-					UART1_SendByte(0xc0);
-					for(int i=0;i<500;i+=1)
-					{	   
-						SetSpeed(0,0,0.205*pi);
-						delay(20);
-					}
-
->>>>>>> 2e8c624a0a3a1d3839c54e5692f6a1a626c4e09e
 					for(int i=0;i<50;i+=1)
 					{		
 					SetSpeed(0,0,0);
 					delay(10);
-<<<<<<< HEAD
 				  }
-=======
-					}
->>>>>>> 2e8c624a0a3a1d3839c54e5692f6a1a626c4e09e
-					UART1_SendByte(0xc1);
-					return;
-				case keyback:
-					return;
-			}
-		}
-<<<<<<< HEAD
-  
+			UART1_SendByte(0xc1);
+			return;
+			case keyback:
+			return;
+		 }
+	  }  
+   }
  }
-=======
-  }
->>>>>>> 2e8c624a0a3a1d3839c54e5692f6a1a626c4e09e
-}
+
